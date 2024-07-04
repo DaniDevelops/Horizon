@@ -12,7 +12,6 @@ export default function RightSideBar({
 }: RightSidebarProps) {
   const categories: CategoryCount[] = countTransactionCategories(transactions);
 
-  console.log(transactions);
   return (
     <aside className="right-sidebar">
       <section className="flex flex-col pb-8">
