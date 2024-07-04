@@ -54,7 +54,6 @@ export default function AuthForm({ type }: { type: string }) {
         const newUser = await signUp(userData);
 
         setUser(newUser);
-        console.log(data);
       }
 
       if (type === "sign-in") {

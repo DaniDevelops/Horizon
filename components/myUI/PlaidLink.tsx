@@ -27,6 +27,7 @@ export default function PlaidLink({ user, variant }: PlaidLinkProps) {
         publicToken: public_token,
         user,
       });
+
       router.push("/");
     },
     [user, router]
